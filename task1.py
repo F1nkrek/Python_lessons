@@ -1,0 +1,5 @@
+name = input("Введите ваше имя: ")
+secondName = input("Введите вашу фамилию: ")
+age = int(input("Сколько вам лет? "))
+print("Здравствуйте", name, secondName)
+print("Вам", age)
