@@ -37,7 +37,7 @@ while True:
     print(*products, sep="\n")
     finish = input("Для продолжения формирования списка нажмите (Enter), если формирование списка закончено, "
                    "то нажмите (y): ")
-    if finish.lower() == 'y' or 'Y' or 'н' or 'Н':
+    if finish.lower() == 'y':
         break
 print("[")
 print(*products, sep="\n")
